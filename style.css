@@ -57,7 +57,7 @@ nav.topnav a:hover, nav.topnav a.active { color: var(--brass-bright); text-decor
     transform:translateX(-50%);
     width:1300px;
     max-width:none;
-    opacity:.25;
+    opacity:.30;
 }
 .eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--brass-bright); margin-bottom: 16px; display: block; }
 h1 { font-family: var(--serif); font-weight: 500; font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.08; }
