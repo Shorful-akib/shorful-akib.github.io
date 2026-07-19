@@ -23,6 +23,13 @@ a:hover { text-decoration: underline; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--brass-bright); outline-offset: 3px; }
 .wrap { max-width: 800px; margin: 0 auto; padding: 0 28px; }
 
+/* ---------- Signature curve backdrop ---------- */
+.curve-field {
+  position: absolute; inset: 0; overflow: hidden; pointer-events: none;
+}
+.curve-field svg { position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 1400px; max-width: none; opacity: 0.55; }
+
+
 /* Nav */
 nav.topnav {
   border-bottom: 1px solid var(--line);
