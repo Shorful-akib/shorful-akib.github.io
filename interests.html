@@ -7,9 +7,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
+
 <nav class="topnav">
   <div class="wrap">
     <span class="brand">Shorful Alam</span>
@@ -19,57 +19,73 @@
       <li><a href="publications.html">Publications</a></li>
       <li><a href="interests.html" class="active">Research Interests</a></li>
       <li><a href="projects.html">Projects</a></li>
-      <li><a href="teaching.html">Teaching</a></li>
       <li><a href="awards.html">Activities</a></li>
-      <li><a href="cv.html">CV</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="contact.html">CV &amp; Contact</a></li>
     </ul>
   </div>
 </nav>
-
 
 <header class="page-hero">
   <div class="wrap">
     <span class="eyebrow">Research Interests</span>
     <h1>Areas of Focus</h1>
-    <p class="lede">Core methodological interests and how they connect to my applied work.</p>
+    <p class="lede">Bayesian statistics and statistical machine learning form the methodological core of my work; the application domain is deliberately open.</p>
   </div>
 </header>
 
 <section>
   <div class="wrap">
     <h2 class="title">Bayesian Statistics</h2>
-    <p>Probabilistic modeling that formally incorporates prior knowledge and quantifies uncertainty — the foundation of my methodological approach across projects.</p>
+    <p>Probabilistic modeling that formally incorporates prior knowledge and quantifies uncertainty &mdash; the foundation of my methodological approach across projects.</p>
   </div>
 </section>
+
 <section>
   <div class="wrap">
     <h2 class="title">Empirical Bayes</h2>
-    <p>Estimating prior distributions directly from data to stabilize noisy, sparse estimates — the core technique in my DHS mortality estimation work.</p>
+    <p>Estimating prior distributions directly from data to stabilize noisy, sparse estimates &mdash; the core technique in my DHS mortality estimation work.</p>
   </div>
 </section>
+
+<section>
+  <div class="wrap">
+    <h2 class="title">Hierarchical &amp; Small-Area Models</h2>
+    <p>Borrowing strength across related units &mdash; age groups, regions, or survey domains &mdash; to produce stable estimates where individual cells are too sparse to trust alone; the central methodological question in my comparison of exchangeable and age-structured priors for small-area mortality estimation.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="title">Bayesian Computation</h2>
+    <p>Currently working with R-INLA for fast, deterministic approximate inference in hierarchical models; actively extending this toward full MCMC-based estimation in Stan to work with a broader class of models beyond the latent Gaussian framework INLA is built for.</p>
+  </div>
+</section>
+
 <section>
   <div class="wrap">
     <h2 class="title">Survival Analysis</h2>
     <p>Modeling time-to-event data, including age-specific mortality, under incomplete or indirect observation.</p>
   </div>
 </section>
+
 <section>
   <div class="wrap">
-    <h2 class="title">Biostatistics &amp; Health Statistics</h2>
-    <p>Statistical methods applied to health outcomes, health service utilization, and population health disparities.</p>
+    <h2 class="title">Statistical Methodology for Sparse &amp; Complex Data</h2>
+    <p>How prior structure, shrinkage, and borrowing strength interact with survey design, sampling variance, and data sparsity &mdash; the throughline connecting my published and current work.</p>
   </div>
 </section>
+
 <section>
   <div class="wrap">
-    <h2 class="title">Demography</h2>
-    <p>Quantitative methods for estimating mortality, fertility, and population dynamics, particularly in data-sparse settings.</p>
+    <h2 class="title">Demography &amp; Health Statistics</h2>
+    <p>Quantitative methods for estimating mortality and population health outcomes from household survey data, including DHS-based adult mortality estimation and analyses of health service utilization and disparities.</p>
   </div>
 </section>
+
 <section>
   <div class="wrap">
-    <h2 class="title">Machine Learning for Health Data</h2>
-    <p>Supervised and unsupervised methods (ensembles, clustering, dimensionality reduction) applied to health and survey data, complementing classical statistical approaches.</p>
+    <h2 class="title">Statistical Machine Learning</h2>
+    <p>Supervised and unsupervised methods &mdash; ensembles, clustering, dimensionality reduction &mdash; as a complement to classical statistical inference; an area I'm keen to build on with the same rigor I bring to Bayesian methodology, across whichever application domain that leads to.</p>
   </div>
 </section>
 
