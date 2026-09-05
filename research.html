@@ -7,7 +7,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 <nav class="topnav">
@@ -18,13 +17,12 @@
       <li><a href="research.html" class="active">Research</a></li>
       <li><a href="publications.html">Publications</a></li>
       <li><a href="interests.html">Research Interests</a></li>
-      <li><a href="projects.html">Projects</a></li>
+      <li><a href="projects.html">Technical Skills</a></li>
       <li><a href="awards.html">Activities</a></li>
       <li><a href="contact.html">CV &amp; Contact</a></li>
     </ul>
   </div>
 </nav>
-
 
 <header class="page-hero">
   <div class="wrap">
@@ -36,12 +34,23 @@
 
 <section>
   <div class="wrap">
-    <h2 class="title">Network-Adjusted Empirical Bayes Estimation of Age-Specific Adult Mortality from DHS Sibling Survival Histories: Evidence from Nigeria</h2>
-    <p><strong style="color:var(--parchment)">Motivation:</strong> Adult mortality is difficult to measure directly in countries with incomplete vital registration. DHS sibling survival histories offer indirect evidence, but estimates are noisy at fine age and regional resolution.</p>
-    <p><strong style="color:var(--parchment)">Methodology:</strong> Empirical Bayes estimation with a network-adjustment step that borrows strength across related age groups and regions, improving stability of age-specific mortality estimates from sparse survey data.</p>
-    <p><strong style="color:var(--parchment)">Data:</strong> Nigeria Demographic and Health Survey (DHS) sibling survival histories.</p>
-    <p><strong style="color:var(--parchment)">Status:</strong> Manuscript complete; submission/preprint in progress. First and corresponding author.</p>
+    <h2 class="title">Network-Adjusted Empirical Bayes Estimation of Age-Specific Adult Mortality from DHS Sibling Survival Histories</h2>
+    <p><strong style="color:var(--parchment)">Motivation:</strong> Adult mortality is difficult to measure directly in countries with incomplete vital registration. DHS sibling survival histories offer indirect evidence, but estimates are noisy at fine age resolution, and a sibling's chance of being reported depends on how many survey-eligible sisters she has &mdash; a differential-visibility bias that can distort raw estimates.</p>
+    <p><strong style="color:var(--parchment)">Methodology:</strong> A network-based visibility adjustment (following Feehan &amp; Borges, 2021) corrects each respondent's contribution before a heteroscedastic empirical Bayes (SURE) shrinkage step borrows strength across age-sex cells, stabilizing estimates in a sparse survey setting.</p>
+    <p><strong style="color:var(--parchment)">Data:</strong> 2024 Nigeria DHS sibling survival histories.</p>
+    <p><strong style="color:var(--parchment)">Status:</strong> Preprint &mdash; <a href="https://doi.org/10.21203/rs.3.rs-10647369/v1" target="_blank" rel="noopener">Research Square</a>; under review, Population Health Metrics. First and corresponding author.</p>
     <div class="tag-row"><span class="tag">Empirical Bayes</span><span class="tag">Survival Analysis</span><span class="tag">Demography</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="title">Exchangeable versus Age-Structured Priors in Small-Area Estimation of Adult Mortality from Sibling Survival Histories</h2>
+    <p><strong style="color:var(--parchment)">Motivation:</strong> Applied small-area models routinely default to either an exchangeable or an age-structured smoothing prior, often without explicit justification. Whether this choice materially changes the resulting estimates &mdash; and under what conditions &mdash; had not been directly tested for survey-based adult mortality estimation.</p>
+    <p><strong style="color:var(--parchment)">Methodology:</strong> Compares SURE-based empirical Bayes shrinkage against two Bayesian Fay&ndash;Herriot models fitted via INLA (an exchangeable IID prior and an age-structured RW2 prior), applied in parallel to visibility-adjusted and unadjusted DHS estimates. A Monte Carlo simulation study, including boundary-age and input-contamination robustness checks, validates the mechanism under known ground truth.</p>
+    <p><strong style="color:var(--parchment)">Data:</strong> 2024 Nigeria DHS and 2016 Nepal DHS sibling survival histories, chosen to span a wide range of cell-level data sparsity.</p>
+    <p><strong style="color:var(--parchment)">Status:</strong> Preprint &mdash; <a href="https://doi.org/10.31235/osf.io/9dh8f_v1" target="_blank" rel="noopener">SocArXiv</a>; under review, Demography. First and corresponding author.</p>
+    <div class="tag-row"><span class="tag">Empirical Bayes</span><span class="tag">INLA</span><span class="tag">Small-Area Estimation</span><span class="tag">Simulation Study</span></div>
   </div>
 </section>
 
@@ -50,7 +59,7 @@
     <h2 class="title">Decomposing Urban&ndash;Rural Inequalities in Maternal Health Care Utilization in Bangladesh</h2>
     <p><strong style="color:var(--parchment)">Motivation:</strong> Maternal health service utilization differs sharply between urban and rural Bangladesh; understanding the drivers of this gap informs targeted policy.</p>
     <p><strong style="color:var(--parchment)">Methodology:</strong> Decomposition analysis applied to nationally representative health survey data.</p>
-    <p><strong style="color:var(--parchment)">Status:</strong> Published, Heliyon.</p>
+    <p><strong style="color:var(--parchment)">Status:</strong> Published &mdash; <a href="https://doi.org/10.1016/j.heliyon.2025.e41945" target="_blank" rel="noopener">Heliyon</a>.</p>
     <div class="tag-row"><span class="tag">Health Statistics</span><span class="tag">Decomposition Analysis</span></div>
   </div>
 </section>
