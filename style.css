@@ -116,7 +116,3 @@ footer { padding: 50px 0 70px; text-align: center; }
 footer .line { font-family: var(--mono); font-size: 12px; color: var(--parchment-dim); }
 
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
-.cv-hero,
-.contact-hero {
-  border-bottom: none;
-}
